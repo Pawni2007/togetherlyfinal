@@ -1,0 +1,179 @@
+/* ==========================================================================
+   Responsive layout
+   One column at every width; there is no right-hand column
+   <=820px : tighter spacing, forms and headers stack
+   ========================================================================== */
+
+/* The inline suggestion blocks are only for layouts that hide the right column. */
+@media (min-width: 1121px) {
+  .only-compact {
+    display: none;
+  }
+}
+
+@media (max-width: 820px) {
+  .main {
+    padding: 24px 16px 56px;
+  }
+
+  .about__section {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .profile-head {
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .profile-head__action {
+    grid-column: 1 / -1;
+  }
+
+  .profile-head__action .btn {
+    width: 100%;
+  }
+
+  .cd-hero {
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 18px;
+    padding: 22px;
+  }
+
+  .cd-hero__actions {
+    grid-column: 1 / -1;
+  }
+
+  .cd-hero__actions .btn {
+    width: 100%;
+  }
+
+  .cd-hero__icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+  }
+
+  /* Dialogs become bottom sheets so they fit small screens comfortably. */
+  .modal-backdrop {
+    align-items: end;
+    padding: 0;
+  }
+
+  .modal {
+    width: 100%;
+    max-height: 92dvh;
+    border-radius: var(--r-lg) var(--r-lg) 0 0;
+    animation-name: sheet-in;
+  }
+}
+
+@keyframes sheet-in {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .problem-list,
+  .field-pair {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .post {
+    padding: 16px 14px 4px 20px;
+  }
+
+  .post__actions {
+    margin-inline: -6px;
+  }
+
+  .action {
+    padding: 0 10px;
+  }
+
+  .composer .btn {
+    min-height: 36px;
+    padding: 0 12px;
+  }
+
+  .post__confirm span {
+    display: none;
+  }
+
+  .about__mission {
+    padding: 26px 22px;
+  }
+
+  .edit-avatar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .results-bar {
+    flex-wrap: wrap;
+  }
+
+  .tabs--line {
+    gap: 18px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .tabs--line .tabs__tab {
+    white-space: nowrap;
+  }
+
+  .stats {
+    gap: 8px 24px;
+  }
+
+  .search--large .search__input {
+    height: 56px;
+    font-size: 1.05rem;
+  }
+
+  /* Chip rows scroll sideways inside their own row instead of stacking into many lines. */
+  .chip-row,
+  .trend-strip {
+    flex-wrap: nowrap;
+    margin-inline: -16px;
+    padding-inline: 16px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .chip-row::-webkit-scrollbar,
+  .trend-strip::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-chip {
+    flex: none;
+  }
+}
+
+/* Grid and flex children may shrink below their content width, so scrolling chip rows stay inside the page. */
+.feed-controls > *,
+.communities-controls > *,
+.explore-controls > *,
+.feed-controls__row > * {
+  min-width: 0;
+}
+
+.chip-row {
+  max-width: 100%;
+}
+
+/* Smaller headings and spacing on phones (these replace the old clamp() sizes). */
+@media (max-width: 820px) {
+  .display { font-size: 2.1rem; }
+  .display--sm { font-size: 1.7rem; }
+  .lp-hero { gap: 28px; }
+  .lp-hero { padding: 40px 24px 48px; }
+  .lp-hero__title { font-size: 2.6rem; }
+  .lp-hero__tagline { font-size: 1.25rem; }
+  .lp-section { padding: 36px 24px; }
+  .lp-h2 { font-size: 1.7rem; }
+  .cd-hero__name { font-size: 1.7rem; }
+  .about__statement { font-size: 2rem; }
+  .about__quote { font-size: 1.6rem; }
+}

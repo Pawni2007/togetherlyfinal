@@ -1,0 +1,352 @@
+[
+  {
+    "id": "p1",
+    "authorId": "s1",
+    "communityId": "coding-club",
+    "category": "Technology",
+    "hoursAgo": 2,
+    "likes": 42,
+    "title": "useContext finally clicked for me",
+    "content": "Spent the weekend refactoring my to-do app so I could stop passing props through four layers. Context felt like overkill until I counted how many components were only forwarding `user`. Now it is one provider and the tree is so much cleaner.",
+    "tags": [
+      "react",
+      "webdev"
+    ]
+  },
+  {
+    "id": "p2",
+    "authorId": "s2",
+    "communityId": "campus-life",
+    "category": "Campus Life",
+    "hoursAgo": 3,
+    "likes": 87,
+    "title": "A quiet seat during end-sem week",
+    "content": "If you are hunting for a calm spot to study: the third-floor reading room opens at 7:30 and almost nobody is there before 9. Bring a charger, the sockets by the windows work.",
+    "tags": [
+      "exams",
+      "library"
+    ]
+  },
+  {
+    "id": "p3",
+    "authorId": "s3",
+    "communityId": "placement-prep",
+    "category": "Career",
+    "hoursAgo": 5,
+    "likes": 64,
+    "title": "What the aptitude round actually had",
+    "content": "Sat through two company aptitude rounds this week. Mostly time-speed-distance, a few puzzles, and one data-interpretation set that ate twelve minutes. Practise DI under a timer. It is the section that surprises people.",
+    "tags": [
+      "placements",
+      "aptitude"
+    ]
+  },
+  {
+    "id": "p4",
+    "authorId": "s4",
+    "communityId": "photography",
+    "category": "Hobbies",
+    "hoursAgo": 6,
+    "likes": 51,
+    "title": "Golden hour at the east gate",
+    "content": "Shot with the kit lens at f/5.6, 1/250. Learned the hard way that exposing for the sky and lifting the shadows later beats the other way round. Any tips for keeping noise down at ISO 1600?",
+    "tags": [
+      "photography",
+      "beginners"
+    ]
+  },
+  {
+    "id": "p5",
+    "authorId": "s5",
+    "communityId": "ai-ml",
+    "category": "Technology",
+    "hoursAgo": 8,
+    "likes": 58,
+    "title": "My first classifier, honestly reviewed",
+    "content": "Built a tiny image classifier for three campus bird species. 71% accuracy, mostly because the dataset is 90 photos. Biggest lesson: better data beat every tweak I made to the model.",
+    "tags": [
+      "machinelearning",
+      "python"
+    ]
+  },
+  {
+    "id": "p6",
+    "authorId": "s6",
+    "communityId": "gaming",
+    "category": "Entertainment",
+    "hoursAgo": 10,
+    "likes": 33,
+    "title": "One more player for the esports night",
+    "content": "We are putting together a 5v5 team for the inter-hostel esports night. Need one more player who is comfortable in a support role and does not mind scrims at 10 pm.",
+    "tags": [
+      "esports",
+      "teamup"
+    ]
+  },
+  {
+    "id": "p7",
+    "authorId": "s7",
+    "communityId": "startup",
+    "category": "Career",
+    "hoursAgo": 12,
+    "likes": 46,
+    "title": "Talk to ten people before you write code",
+    "content": "Interviewed twelve hostel residents about laundry pick-up before building anything. Nine of them said the same thing: the timing matters more than the price. So glad we asked first.",
+    "tags": [
+      "startups",
+      "validation"
+    ]
+  },
+  {
+    "id": "p8",
+    "authorId": "s8",
+    "communityId": "music-art",
+    "category": "Entertainment",
+    "hoursAgo": 14,
+    "likes": 72,
+    "title": "Open mic planning: who wants a slot?",
+    "content": "Planning a small acoustic open mic at the amphitheatre next month. If you play, sing or do spoken word, drop a comment with how long you need. Sound equipment is sorted.",
+    "tags": [
+      "music",
+      "openmic"
+    ]
+  },
+  {
+    "id": "p9",
+    "authorId": "s9",
+    "communityId": "book-lovers",
+    "category": "Hobbies",
+    "hoursAgo": 18,
+    "likes": 29,
+    "title": "Short books for a long commute",
+    "content": "Three reads that made the bus ride shorter this month: an essay collection about cities, a detective novel set in Kolkata, and a surprisingly funny book on statistics. What should I read next?",
+    "tags": [
+      "books",
+      "reading"
+    ]
+  },
+  {
+    "id": "p10",
+    "authorId": "s10",
+    "communityId": "study-circle",
+    "category": "Academics",
+    "hoursAgo": 20,
+    "likes": 61,
+    "title": "Linked list notes, redrawn as diagrams",
+    "content": "Rewrote my data structures notes as pointer diagrams instead of paragraphs. Insert and delete suddenly became obvious. I can share how I structured them if that helps.",
+    "tags": [
+      "datastructures",
+      "notes"
+    ]
+  },
+  {
+    "id": "p11",
+    "authorId": "s1",
+    "communityId": null,
+    "category": "Technology",
+    "hoursAgo": 26,
+    "likes": 38,
+    "title": "Grid or flexbox? My rule of thumb",
+    "content": "Flexbox when the content decides the layout, grid when the layout decides where content goes. It is not perfect, but it stops me overthinking every component.",
+    "tags": [
+      "css",
+      "frontend"
+    ]
+  },
+  {
+    "id": "p12",
+    "authorId": "s2",
+    "communityId": "campus-life",
+    "category": "Campus Life",
+    "hoursAgo": 30,
+    "likes": 55,
+    "title": "Hostel mess feedback on Friday",
+    "content": "The student committee is collecting menu suggestions on Friday. Bring specific ideas. 'Make it tastier' is hard to act on, 'add a sprouts salad twice a week' is easy.",
+    "tags": [
+      "hostel",
+      "feedback"
+    ]
+  },
+  {
+    "id": "p13",
+    "authorId": "s3",
+    "communityId": "placement-prep",
+    "category": "Career",
+    "hoursAgo": 34,
+    "likes": 94,
+    "title": "Resume checklist before you hit send",
+    "content": "One page. Projects with numbers. No photo. Links that actually open. And a file name that is not resume_final_v7.pdf.",
+    "tags": [
+      "resume",
+      "placements"
+    ]
+  },
+  {
+    "id": "p14",
+    "authorId": "s4",
+    "communityId": null,
+    "category": "Hobbies",
+    "hoursAgo": 40,
+    "likes": 27,
+    "title": "Day 21 of the pocket sketchbook",
+    "content": "I carry a small sketchbook on the train now and draw whatever is in front of me for ten minutes. Three weeks in, my hands feel less stiff and I notice more.",
+    "tags": [
+      "sketching",
+      "habits"
+    ]
+  },
+  {
+    "id": "p15",
+    "authorId": "s5",
+    "communityId": "coding-club",
+    "category": "Technology",
+    "hoursAgo": 46,
+    "likes": 49,
+    "title": "Built it in plain JavaScript first",
+    "content": "I wrote a small markdown notes app with only HTML, CSS and JavaScript, then rebuilt it in React. Seeing the same app as components made the benefit obvious in a way tutorials never did.",
+    "tags": [
+      "javascript",
+      "react"
+    ]
+  },
+  {
+    "id": "p16",
+    "authorId": "s6",
+    "communityId": null,
+    "category": "Entertainment",
+    "hoursAgo": 52,
+    "likes": 36,
+    "title": "What do you listen to while debugging?",
+    "content": "My debugging playlist is mostly instrumental film scores. Lyrics break my focus. What gets you through a bug that refuses to die?",
+    "tags": [
+      "music",
+      "productivity"
+    ]
+  },
+  {
+    "id": "p17",
+    "authorId": "s7",
+    "communityId": null,
+    "category": "Academics",
+    "hoursAgo": 58,
+    "likes": 41,
+    "title": "A spreadsheet that calmed me down",
+    "content": "Built a sheet that shows exactly what I need in the final exam to hit my target grade. Seeing one clear number was calmer than vague worry.",
+    "tags": [
+      "exams",
+      "planning"
+    ]
+  },
+  {
+    "id": "p18",
+    "authorId": "s8",
+    "communityId": null,
+    "category": "General Discussion",
+    "hoursAgo": 64,
+    "likes": 66,
+    "title": "What should the freshers' guide include?",
+    "content": "We are writing a guide for incoming first-years. Tell me one thing you wish you had known in your first week.",
+    "tags": [
+      "freshers",
+      "advice"
+    ]
+  },
+  {
+    "id": "p19",
+    "authorId": "s9",
+    "communityId": "ai-ml",
+    "category": "Technology",
+    "hoursAgo": 70,
+    "likes": 44,
+    "title": "Reading group: attention, one section at a time",
+    "content": "Starting a fortnightly reading group on transformer basics. No prerequisites except curiosity. We will read one paper section at a time and talk it through.",
+    "tags": [
+      "ai",
+      "reading"
+    ]
+  },
+  {
+    "id": "p20",
+    "authorId": "s10",
+    "communityId": "placement-prep",
+    "category": "Career",
+    "hoursAgo": 76,
+    "likes": 78,
+    "title": "The internship email that got a reply",
+    "content": "Three short paragraphs: who I am, one specific thing I liked about their product, and what I can contribute. I heard back in two days.",
+    "tags": [
+      "internships",
+      "outreach"
+    ]
+  },
+  {
+    "id": "p21",
+    "authorId": "s1",
+    "communityId": "coding-club",
+    "category": "Technology",
+    "hoursAgo": 82,
+    "likes": 31,
+    "title": "Pair programming hour is back",
+    "content": "Open pair-programming hour in Lab 3 on Thursday evening. Bring a bug or an idea. Beginners are very welcome.",
+    "tags": [
+      "pairprogramming",
+      "help"
+    ]
+  },
+  {
+    "id": "p22",
+    "authorId": "s4",
+    "communityId": "photography",
+    "category": "Hobbies",
+    "hoursAgo": 90,
+    "likes": 39,
+    "title": "Photowalk this Saturday",
+    "content": "Meeting at the main gate at 6:30 am for a campus photowalk. Phones are completely fine, no gear needed.",
+    "tags": [
+      "photowalk",
+      "saturday"
+    ]
+  },
+  {
+    "id": "p23",
+    "authorId": "s6",
+    "communityId": "gaming",
+    "category": "Entertainment",
+    "hoursAgo": 96,
+    "likes": 25,
+    "title": "Retro game night results",
+    "content": "We played old arcade classics in the common room and it got surprisingly competitive. Someone beat the high score on the snake clone I wrote last month 😅",
+    "tags": [
+      "retro",
+      "tournament"
+    ]
+  },
+  {
+    "id": "p24",
+    "authorId": "me",
+    "communityId": "coding-club",
+    "category": "Technology",
+    "hoursAgo": 100,
+    "likes": 19,
+    "title": "Learning React Router, one route at a time",
+    "content": "Moved my project from conditional rendering to real routes. Back and forward buttons just work now, and the URL actually tells you where you are.",
+    "tags": [
+      "react",
+      "routing"
+    ]
+  },
+  {
+    "id": "p25",
+    "authorId": "me",
+    "communityId": "campus-life",
+    "category": "Campus Life",
+    "hoursAgo": 120,
+    "likes": 23,
+    "title": "Wi-Fi near the east block is flaky",
+    "content": "Is anyone else losing connection near the east block after 8 pm? Trying to collect a few examples to send to the IT desk.",
+    "tags": [
+      "hostel",
+      "feedback"
+    ]
+  }
+]
